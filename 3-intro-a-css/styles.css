@@ -1,0 +1,49 @@
+body {
+    /*  background: white;*/
+font-family: monospace;
+}
+
+h1{
+text-transform: lowercase;
+}
+
+p {
+
+    color: #575651;
+}
+.parrafo-lindo{
+    background-color: brown;
+    font-weight: bold;
+}
+
+#parrafo-unico{
+    color: #ff69b4;
+    font-size: 22px;
+}
+.Enlace-especial {
+    color: #000000;
+}
+
+a {
+    color: #ff0000;
+}
+
+a {
+    color: #ffff00;
+}
+
+main {
+    color: blue;
+}
+
+
+/*
+p{ }
+
+p {
+
+}
+
+p
+{ }
+*/
