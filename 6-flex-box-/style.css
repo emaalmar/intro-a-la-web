@@ -1,0 +1,88 @@
+body {
+background-color: rgb(146, 146, 249);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#logo img {
+    width: 64px;
+    aspect-ratio: 1;
+}
+
+#call-to-action {
+    background-color: ;
+    color: #fff7f0;
+    text-decoration: none;
+    padding: 14px 45px;
+    border-radius: 1000px;
+}
+
+.text-content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+.text-content p {
+    color: #7a756e;
+}
+
+.image-container  {
+    display: flex;
+    gap: 24pxs;
+    /* background: green; */
+}
+
+.image-container a {
+    aspect-ratio: 4 / 5;
+    background-color: lavender;
+    border: black solid 1px;
+    flex-basis: 100%;
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.sour-gummy-<uniquifier> {
+  font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

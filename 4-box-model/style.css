@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(247, 238, 250);
+}
+
+/*Tipo bloque*/
+
+h1{
+    background-color: rgb(229, 113, 113);
+    /* Box model: */
+    /*padding: 16px;*/
+    padding-block-start: 1px;
+    padding-block-end: 36px;
+    padding-inline-start: 50px;
+    padding-inline-end: 20px;
+
+    /* shorthand*/
+    padding-block: 1px 16px;
+    padding-inline: 50px 20px;
+    
+   /* padding-top: ;
+    padding-left: ;
+    padding-bottom: ;
+    padding-right: ; */
+
+    border: dashed 5px rgb(181, 171, 190);
+
+    margin-block-start: 50px;
+    margin-block-end: 5px;
+    margin-inline-end: 120px;
+    margin-inline-end: 12px;
+
+    margin-block: 50px 5px;
+    margin-inline: 120px 12px;
+    
+    margin-block: 15px;
+    margin-inline: 20px;
+
+    margin: 16px;
+
+}
+
+p{
+    background-color: aquamarine;
+    padding: 16px;
+    border: 5px dashed rgb(229, 113, 113);
+}
+
+#Parrafo-1 {
+    /*background-color: aqua;*/
+    background-clip: border-box;
+    /*ESTO CAMBIA EL CONTENIDO*/
+    width: 200px;
+    height: 250px;
+}
+
+#Parrafo-2 {
+    background-color: blue;
+    background-clip:padding-box;
+}
+
+#Parrafo-3 {
+    background-color: rgb(233, 233, 184);
+    background-clip: content-box;
+}
+
+h2{
+    
+    background: linear-gradient(90deg, hsl(243, 100%, 7%) 10%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+    background-clip: text ;
+    color:transparent;
+}
+
+span {
+    background-color: black;
+    color: yellow;
+    border: solid 5px burlywood; 
+    padding: 15px;
+    margin: 16px;
+    width: 200px;
+    height: 150px;
+    /*display: block;*/
+    display: inline-block;
+}
+
+
